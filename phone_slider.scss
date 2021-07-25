@@ -1,0 +1,35 @@
+.mobile-slider-container{
+    width: 300px;
+    height:600px;
+    .phone-slider{
+        height:100%;
+        width: 100%;
+        position: relative;
+    }
+    .phone-slider__mask{
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+    .box-scroll-true{
+        height: 98%;
+    }
+    .free-scroll{
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        bottom: 0px;
+        left: 20px;
+        height: 91.3%;
+        overflow-y: scroll;
+        border-radius: 0px 0px 25px 25px;
+    }
+    .scroll-true{
+        overflow:none;
+        overflow-y: unset;
+        height:100%;
+        img{
+            border-radius: 0px 0px 25px 25px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+ .mobile-slider-container {
+  width: 300px;
+  height: 600px;
+}
+
+.mobile-slider-container .phone-slider {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.mobile-slider-container .phone-slider__mask {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.mobile-slider-container .box-scroll-true {
+  height: 98%;
+}
+
+.mobile-slider-container .free-scroll {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  bottom: 0px;
+  left: 20px;
+  height: 91.3%;
+  overflow-y: scroll;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.mobile-slider-container .scroll-true {
+  overflow: none;
+  overflow-y: unset;
+  height: 100%;
+}
+
+.mobile-slider-container .scroll-true img {
+  border-radius: 0px 0px 25px 25px;
+}
+/*# sourceMappingURL=phone_slider.css.map */
